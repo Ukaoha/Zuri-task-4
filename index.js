@@ -5,7 +5,7 @@ function convertFahrToCelsius(f) {
     typeof f
 
     if (isNaN(f) )
-    return `"${f}" is mot a valid but a/an 
+    return `"${f}" is not a valid number but a/an 
     ${type}`
 
     f = parseFloat(f)
@@ -30,7 +30,7 @@ function checkYuGiOh(n) {
         yuGiOh.push("yu")
 
         if (num % 3 == 0 )
-        yuGiOh.push("Gi")
+        yuGiOh.push("gi")
 
         if (num % 5 == 0 )
         yuGiOh.push("Oh")
