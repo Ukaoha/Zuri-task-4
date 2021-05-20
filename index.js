@@ -9,7 +9,7 @@ function convertFahrToCelsius(f) {
     ${type}`
 
     f = parseFloat(f)
-    return `${((f - 32) * (5/9)).toFixed(4)} deg C`
+    return `${((f - 32) * (5/9)).toFixed(4)} `
 
 }
 
